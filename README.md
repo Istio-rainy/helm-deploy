@@ -37,7 +37,7 @@ helm repo add $NAMESPACE https://repomanage.rdc.aliyun.com/helm_repositories/$NA
 1. 安装 Helm push 插件
 
 ```
-helm plugin install https://github.com/chartmuseum/helm-p
+helm plugin install https://github.com/chartmuseum/helm-push
 ```
 
 2. 发布 Chart 目录

@@ -1,0 +1,10 @@
+# Default values for pv.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+pv:
+  flexVolume:
+    server: "*-wti10.cn-beijing.nas.aliyuncs.com"
+    path: /k8s
